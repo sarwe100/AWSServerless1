@@ -15,10 +15,7 @@ namespace AWSServerless1.Controllers
         {
             return new string[] { "value1", "value2","AWS Serverless" ,"Azur Functions"};
         }
-        public IEnumerable<string> Get(string str)
-        {
-            return new string[] { "value1", "value2", "AWS Serverless", "Azur Functions" };
-        }
+       
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
