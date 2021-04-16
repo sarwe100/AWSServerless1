@@ -13,7 +13,7 @@ namespace AWSServerless1.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2","AWS Serverless" ,"valu5","Azur Functions"};
+            return new string[] { "value100", "value2","AWS Serverless" ,"valu5","Azur Functions"};
         }
         public IEnumerable<string> GetALl()
         {
